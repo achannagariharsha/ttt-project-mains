@@ -1,70 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project: Profile Screen
 
-## Available Scripts
+Description
+This project, named "Profile Screen," is a responsive web application built using HTML, CSS, Bootstrap, React.js, and JavaScript. The application data is stored in a JSON file named "matter.json." The structure of the application includes several components:
 
-In the project directory, you can run:
+1. Navbar (File: navbar.js): This component handles the navigation bar of the application.
 
-### `npm start`
+2. Header (File: header.js): The header component contains details about the user's profile.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Home (File: Home.js): The Home component displays posts and imports the Card component (File: card.js) using mapping to showcase each card item.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Card (File: card.js): The Card component is imported into the Home component, and multiple cards are rendered using the map function.
 
-### `npm test`
+Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* React.js
+* JavaScript
+  
+Functionality 
+Users can interact with the posts by giving likes. The like functionality is implemented using JavaScript to enhance user engagement.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data Storage
+The application posts data is stored in a JSON file named "matter.json."
 
-### `npm run build`
+Responsiveness
+The application is designed to be fully responsive, adapting to different screen sizes. Bootstrap's five responsive tiers are utilized, with changes occurring at the following pixel breakpoints:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Small (sm): 576 pixels
+   Image :
+       ![image](https://github.com/achannagariharsha/ttt-project-mains/assets/92921212/e0d6c2a9-a637-4a0e-b8af-411ed4c133b6)
+       ![image](https://github.com/achannagariharsha/ttt-project-mains/assets/92921212/d1795dcd-b55d-4c76-ba8d-0d06fc635e22)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+* Medium (md): 768 pixels
+  Image
+    ![image](https://github.com/achannagariharsha/ttt-project-mains/assets/92921212/c672411c-f250-4e1d-8362-d35032a15d47)
+    
 
-### `npm run eject`
+* Large (lg): 992 pixels
+* Desktop View: Beyond 1200 pixels
+   Image :
+        ![image](https://github.com/achannagariharsha/ttt-project-mains/assets/92921212/a482eb51-56be-4910-a514-8054181d8253)
+        ![image](https://github.com/achannagariharsha/ttt-project-mains/assets/92921212/9e1397a6-e6ad-4a42-89c1-eb162a21a602)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+       
+  
+Deployment Link : https://ttt-project-harsha.vercel.app/
+* I have deployed in vercel platform
+ 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
