@@ -1,0 +1,156 @@
+.header {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: black;
+    font-weight:bolder;
+}
+.Image {
+    width: 20px;
+    height: 20px;
+
+}
+.button-like {
+    border: 0px;
+    border-color: white;
+    background-color: transparent;
+    
+}
+.description {
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+}
+
+.horizontal {
+    background-color: black;
+    background-size: 3px;
+}
+.idea-color {
+    color: aqua;
+    font-size: 12px;
+}
+.p1-color {
+    color: black;
+    font-size: 12px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.navBar {
+    background-color: black;
+    padding: 15px;
+}
+.nav-button {
+    background-color: rgb(238, 238, 16);
+    font-family: "Roboto";
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.nav-header {
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.line {
+    margin-left: 8px;
+    border: 0px;
+    border-left: 2px;
+    border-color: rgb(157, 109, 109);
+    width: 200px;
+    border-style: solid;
+}
+.paris-Image {
+    height: 400px;
+    width: 100%;
+}
+
+.profile-img {
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+}
+.verified-image {
+    height: 18px;
+    margin-top: 8px;
+}
+.button-follow{
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+  border-style: solid;
+  border-color: gray;
+  color: grey;
+}
+.description-para {
+    font-size: 15px;
+    text-align: center;
+    /* font-family: "Roboto"; */
+    font-weight: 650;
+    color: gray;
+}
+.person {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i-color {
+    color: rgb(71, 117, 117);
+  
+} 
+.div-image {
+    position: absolute;
+    bottom: 8px;
+}
+.description-h{
+    color: rgb(52, 40, 40);
+    font-size: 20px;
+}
+
+.header-count {
+    font-weight: 500;
+}
+.hor{
+    background-color: black;
+    background-size: 3px;
+}
+.total-posts {
+    color: rgb(77, 77, 184);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "areal";
+}
+.post{
+    border: 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+}
+.parent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .child {
+    position: relative;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%, -100%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+  }
