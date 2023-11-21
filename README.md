@@ -49,9 +49,8 @@ The application is designed to be fully responsive, adapting to different screen
 
 
 
-       
+
   
-Deployment Link : https://ttt-project-harsha.vercel.app/
-* I have deployed in vercel platform
+Deployment Link : ttt-project-mains.vercel.app
  
 
